@@ -3,3 +3,5 @@ numpy
 jupyter
 scipy
 scikit-learn
+fastapi
+uvicorn
