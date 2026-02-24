@@ -1,14 +1,13 @@
 import os
 import pickle
 
-data_path = '../data/'
 
 def load_model():
 
-    with open((os.path.join(data_path, 'item_user_matrix.pkl')), 'rb') as file:
+    with open('data/item_user_matrix.pkl', 'rb') as file:
         matrix = pickle.load(file)
 
-    with open((os.path.join(data_path, 'model_knn.pkl'), 'rb')) as file:
+    with open('data/model_knn.pkl', 'rb') as file:
         model = pickle.load(file)
 
     return model, matrix
