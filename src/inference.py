@@ -27,7 +27,7 @@ def get_recommendations(product_id: str, n_recommendations = 6):
 
         for i in range(1, len(distances.flatten())):
             rec_id = item_user_matrix.index[indices.flatten()[i]]
-            recommendations.append({"product_id":rec_id})
+            recommendations.append({"product_id":rec_id, "distance":float(distances.flatten()[i])})
 
         return recommendations
         
