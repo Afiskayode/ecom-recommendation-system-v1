@@ -49,7 +49,7 @@ ecom-recommendation-system-v1/
 
 ```bash
 git clone https://github.com/Afiskayode/ecom-recommendation-system-v1.git
-cd ecom-recommender-system
+cd ecom-recommendation-system-v1
 
 ```
 
